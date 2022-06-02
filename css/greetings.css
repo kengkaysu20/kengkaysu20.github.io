@@ -1,0 +1,71 @@
+.container{
+    margin-left: 200px;
+    font-family: 'Helvetica', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.message{
+    flex: 60%;
+    margin: 20px;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.container h1:hover{
+    color: #ffeaea;
+    cursor: default;
+}
+
+.message p {
+    margin: 10px 0 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.message button{
+    align-items: center;
+}
+
+.polaroid {
+    flex: 30%;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: static;
+}
+
+
+.polaroid h2{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Goodest', sans-serif;
+    font-size: 50px;
+}
+
+.polaroid img{
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .container, .polaroid {   
+    flex: 100%;
+    }
+}
+
+.message ul h2 {
+    margin-top: 5px;
+}
+
+.lists{
+    display: flex;
+}
+
+.listitems{
+    margin: 20px;
+}
